@@ -1,6 +1,6 @@
 from distancia_pontos import pontos
 
-
+# permutações com as cidades
 def permutations(cidades):
     result = []
 
@@ -18,6 +18,7 @@ def permutations(cidades):
     return result
 
 
+# distância mínima entre as diferentes permutações
 def distancia_minima(result, origem='R'):
     min_dist = None
     min_percurso = None
@@ -42,6 +43,7 @@ def distancia_minima(result, origem='R'):
 
 lista_matriz = []
 
+#lê a entrada 
 with open('matriz.txt', 'r') as matriz:
     for line in matriz:
         linha = []

@@ -1,3 +1,4 @@
+#guarda as informações de cada ponto numa tupla
 def pontos(lista_matriz):
     vertices = []
 
@@ -10,6 +11,7 @@ def pontos(lista_matriz):
     return calcula_distancia(vertices)
 
 
+#calcula a distância de um ponto aos demais
 def calcula_distancia(vertices):
     cities = {}
     city = {}
